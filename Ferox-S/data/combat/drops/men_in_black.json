@@ -1,0 +1,35 @@
+{
+  "npcs": [ 7632 ],
+  "petItem": 30228,
+  "petRarity": 2000,
+  "guaranteed": [
+    { "id": 13307, "min": 100, "max": 100 }, //Blood money
+    { "id": 30235, "min": 25, "max": 100 } //H'ween tokens
+  ],
+  "tables": [
+    {
+      "name": "Drops",
+      "points": 1,
+      "items": [
+        { "id": 30235, "min": 100, "max": 250, "points": 90 }, //H'ween tokens
+        { "id": 4564, "min": 1, "max": 1, "points": 75 }, //Candy
+        { "id": 30186, "min": 1, "max": 1, "points": 30 }, //H'ween mystery box
+        { "id": 30222, "min": 1, "max": 1, "points": 10 }, //Mystery ticket
+        { "id": 2944, "min": 1, "max": 1, "points": 5 }, //Key of drops
+        { "id": 30227, "min": 1, "max": 1, "points": 2 } //H'ween mystery chest
+      ]
+    },
+    {
+      "name": "Empty",
+      "points": 30,
+      "items": [
+      ]
+    },
+    {
+      "name": "Empty",
+      "points": 30,
+      "items": [
+      ]
+    }
+  ]
+}

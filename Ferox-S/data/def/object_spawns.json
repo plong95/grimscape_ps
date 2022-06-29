@@ -1,0 +1,14 @@
+[
+  //Nightmare
+  {
+    "name": "Nightmare",
+    "face": 0,
+    "type": 10,
+    "id": 2157,
+    "tile": {
+      "x": 3080,
+      "y": 3489,
+      "z": 0
+    }
+  }
+]
