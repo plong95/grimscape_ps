@@ -1,51 +1,56 @@
 # Compiled class file
-*.class
-scape-editor-bundle/**
-osdc-bundle/**
-#Need to keep .gz for cache and clipping, so don't gitignore it.
-*.rar
-*.7z
+#*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+#saves
+#azura-Server/data/saves/*
+
+# Package Files #
+*.war
+*.nar
+*.ear
 *.zip
-*.kotlin_module
-Ferox-S/src/META-INF/MANIFEST.MF
-Ferox-C/src/META-INF/MANIFEST.MF
-Ferox-S/default.ini
-Ferox-S/.idea/
-Ferox-S/data/properties.json
-Ferox-S/data/dump/**
-Ferox-S/data/list/ids/**
-Ferox-S/data/saves/**
-out/**
-Ferox-S/out/**
-Ferox-C/out/**
-.idea/
-Ferox-S/default-test.ini
-Ferox-S/dono-test.ini
-Ferox-S/vote-test.ini
-Ferox-C/EldritchCache/settings.txt
-Ferox-S/err.txt
-Ferox-S/out.txt
-Ferox-S/data/logs/
-Ferox-C/LuzoxLogs/err.txt
-Ferox-C/LuzoxLogs/info.txt
-Ferox-S/data/loginserver-info.txt
-Ferox-S/data/offline-profiles-eco-scan.txt
-Ferox-S/combat-sims.txt
-Ferox-S/data/taskmanager-breakdown.txt
-Ferox-S/data/properties1.json
-EldritchCache
-Ferox-S/donations-test.ini
-Ferox-S/votes-test.ini
-Ferox-S/data/clipping/
-Ferox-S/data/eco scan - pkp.txt
-Ferox-S/data/eco scan - player all pkp items.txt
-Ferox-S/data/eco scan - ref by name.txt
-Ferox-S/data/eco scan - refs.txt
-Ferox-S/data/eco scan - summary.txt
-Ferox-S/data/eco scan - votes.txt
-Ferox-S/data/lag trigger info.txt
-Ferox-S/data/osrs objs dump.txt
-Ferox-S/data/properties-test.json
-Ferox-S/data/local-properties.json
-Ferox-S/data/tradingpost/**
-Ferox-C/FeroxCache/settings.txt
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse Specific
+#.classpath
+#.project
+#.settings/
+#azura-client/.settings/
+#azura-server/.settings/
+#azura-runelite/.settings/
+
+
+# Intellij Specific
+#*.iml
+#.idea/
+#azura-client/.idea/
+#azura-server/.idea/
+#azura-runelite/.idea/
+
+# Module Specific Directories
+azura-client/target/
+azura-server/target/
+azura-runelite/target/
+
+
+#itemstats.dat
+#azura-server/data/lottery_data.txt
+#azura-server/src/main/java/com/ruse/world/content/collectionlog/CollectionLogInterface.java
+#azura-server/src/main/java/com/ruse/net/packet/impl/ChatPacketListener.java
+#azura-server/src/main/java/com/ruse/net/packet/impl/ChatPacketListener.java
+#azura-server/src/main/java/com/ruse/world/content/collectionlog/CollectionLogInterface.java
+#azura-server/src/main/java/com/ruse/model/PlayerRelations.java
+#azura-Client/src/main/java/org/necrotic/client/world/sound/Class5_Sub1.java

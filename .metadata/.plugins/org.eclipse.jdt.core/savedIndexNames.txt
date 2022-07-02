@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\azura2\Desktop\azuraazura\.metadata\.plugins\org.eclipse.jdt.core
+1775286193.index
+1865797976.index
+2760887227.index
